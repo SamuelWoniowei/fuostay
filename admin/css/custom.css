@@ -1,0 +1,13 @@
+.quick-access h4, .notifications h4 {
+  padding-top: 5%;
+  margin-bottom: -4%;
+}
+
+.quick-access li, .notifications li {
+  list-style: none;
+  text-align: left;
+}
+
+.quick-access a, .notifications a {
+  font-size: 19px;
+}
