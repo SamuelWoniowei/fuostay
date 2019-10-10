@@ -28,9 +28,7 @@ if (isset($_POST{'submit'})) {
 
 
 
-  // File upload configuration
-      // $new_name =rand() . '.' . $extension[1];
-      // $destination = $_SERVER['DOCUMENT_ROOT'].'/uploads/'.$new_name;
+
       $targetDir = $_SERVER['DOCUMENT_ROOT']."/fuostay/uploads/";
       $allowTypes = array('jpg','png','jpeg','gif');
 
@@ -57,7 +55,7 @@ if (isset($_POST{'submit'})) {
           }
         }
 
-// echo $insertValuesSQL;
+// insertValuesSQL here refers to the images
 //record details and mark as awaiting approval
 
 //check if a record has been made before
