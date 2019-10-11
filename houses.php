@@ -29,9 +29,7 @@ require_once('db/connect.php');
             <div class="col-sm-5">
 
             <div class="input-group">
-                <!-- <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Preferred house type</label>
-                    </div> -->
+
                     <select class="custom-select">
                         <option selected>Select your preferred house type</option>
                         <option value="1">Single room</option>
@@ -45,9 +43,7 @@ require_once('db/connect.php');
             </div>
             <div class="col-sm-5">
             <div class="input-group">
-                <!-- <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Preferred house type</label>
-                    </div> -->
+            
                     <select class="custom-select">
                         <option selected>Select your preferred location</option>
                         <option value="1">One</option>
