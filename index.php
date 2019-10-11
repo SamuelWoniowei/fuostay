@@ -26,16 +26,14 @@ require_once('db/connect.php');
 
 
   <div class="row">
-      <!-- <div class="col-sm-3">bad boy</div> -->
+
       <div class="col-sm-12">
       <form>
           <div class="row">
             <div class="col-sm-5">
 
             <div class="input-group">
-                <!-- <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Preferred house type</label>
-                    </div> -->
+
                     <select class="custom-select">
                         <option selected>Select your preferred house type</option>
                         <option value="1">Single room</option>
@@ -194,10 +192,9 @@ require_once('db/connect.php');
     </div>
 
     <div class="row get-started-row">
-        <!-- <div class="col-sm-12"> -->
+
         <button class="btn peach-gradient"><a class="nav-link" href="signup.php" >Get started</a></button>
-            <!-- <button class="btn btn-primary">Get Started</button> -->
-        <!-- </div> -->
+
     </div>
 </div>
 

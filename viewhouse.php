@@ -121,7 +121,7 @@ require_once('db/connect.php');
     </a>
   <!--/.Controls-->
 </div>
-<!--/.Carousel Wrapper-->
+
       <?php }
       ?>
     </div>
@@ -132,7 +132,7 @@ require_once('db/connect.php');
         </div>
 
         <div class="card-body">
-          <!-- <span class="card-title">House details  </span> -->
+
           <div class="row">
             <div class="col-md-6">
               <table class="table">
@@ -232,11 +232,7 @@ require_once('db/connect.php');
           </div>
 
 
-          <!-- <a href="#" class="btn btn-primary">Button</a> -->
         </div>
-        <!-- <div class="card-footer">
-          <p class="card-text text-right">uploaded on: <a href="#"><?php echo $row['upload_date']; ?></a></p>
-        </div> -->
 
 
   </div>
